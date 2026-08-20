@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: rgb(145, 236, 239);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(2, 2, 2);
+    font-family: Arial;
+    font-size: 28px;
+    text-shadow: 2px 3px 4px rgb(246, 243, 243);
+}
+
+main {
+    width: 96%;
+    margin: auto;
+}
+
+section {
+    border: 2px solid rgb(95, 108, 128);
+    padding: 15px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(143, 219, 245);
+ 
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+
+.photos h2 {
+    display: inline-block;
+    color: rgb(14, 5, 5);
+    padding: 2px 5px;
+    font-weight: bold;
+    border-width: 14px;
+    text-shadow: 2px 2px 4px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+figure {
+    margin: 0;
+    display: block;
+    gap: 4px;
+}
+
+figure img {
+    width: 281px;
+    height: 210px;
+    border-radius: 30px;
+}
+
+
+/* MUSIC */
+
+.music h2 {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.music article {
+    margin-bottom: 12px;
+}
+
+.music p {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    
+    
+}
+
+audio {
+    width: 215px;
+    height: 40px;
+}
+
+
+/* TRAVEL VIDEO */
+.travel h2 {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+.travel {
+    min-height: 105px;
+}
+
+ video {   
+    border-radius: 50px;
+    width: 1425px;
+    height: 500px;
+    background-color: black;
+    display: block;
+}
